@@ -44,6 +44,7 @@ In order to run our script for phase 1 (finding keypoints), phase2 (matchfeature
         ```
         add_subdirectory(src_seq)
         add_subdirectory(examples_seq)
+        ```
 
 2. Choose which phase to run : 
     - `./FindKeypoints.sh` : finding keypoints for 4 input images.
