@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstb_image.a 
+/usr/bin/ranlib libstb_image.a

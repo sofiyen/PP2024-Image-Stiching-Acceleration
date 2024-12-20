@@ -1,0 +1,35 @@
+[+]Parallel
+Image pair 1:
+Total executing time: 4822 ms
+----------------------------------------
+Image pair 2:
+Total executing time: 2007 ms
+----------------------------------------
+Image pair 3:
+Total executing time: 4365 ms
+----------------------------------------
+Image pair 4:
+Total executing time: 1004 ms
+----------------------------------------
+----------------------------------------
+[+]Sequential
+Image pair 1:
+Total executing time: 169373 ms
+----------------------------------------
+Image pair 2:
+Total executing time: 16281 ms
+----------------------------------------
+Image pair 3:
+Total executing time: 57093 ms
+----------------------------------------
+Image pair 4:
+Total executing time: 3837 ms
+----------------------------------------
+Image pair 1:
+----------------------------------------
+Image pair 2:
+----------------------------------------
+Image pair 3:
+----------------------------------------
+Image pair 4:
+----------------------------------------

@@ -1,0 +1,11 @@
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/edit_cache.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/rebuild_cache.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/src_seq/CMakeFiles/stb_image.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/src_seq/CMakeFiles/img.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/src_seq/CMakeFiles/sift.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/src_seq/CMakeFiles/edit_cache.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/src_seq/CMakeFiles/rebuild_cache.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/examples_seq/CMakeFiles/find_keypoints.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/examples_seq/CMakeFiles/match_features.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/examples_seq/CMakeFiles/edit_cache.dir
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/examples_seq/CMakeFiles/rebuild_cache.dir

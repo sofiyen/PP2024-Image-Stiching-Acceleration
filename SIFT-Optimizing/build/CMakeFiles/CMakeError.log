@@ -1,0 +1,66 @@
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb182/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb182.dir/build.make CMakeFiles/cmTC_eb182.dir/build
+gmake[1]: Entering directory '/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k'
+Building CXX object CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o
+/opt/rocm-6.2.1/bin/hipcc   -O3 -fopenmp=libomp -std=c++17 -MD -MT CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o -c /work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp:6:38: error: use of undeclared identifier '_OPENMP'
+    6 |                             ('0' + ((_OPENMP/100000)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp:7:38: error: use of undeclared identifier '_OPENMP'
+    7 |                             ('0' + ((_OPENMP/10000)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp:8:38: error: use of undeclared identifier '_OPENMP'
+    8 |                             ('0' + ((_OPENMP/1000)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp:9:38: error: use of undeclared identifier '_OPENMP'
+    9 |                             ('0' + ((_OPENMP/100)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp:10:38: error: use of undeclared identifier '_OPENMP'
+   10 |                             ('0' + ((_OPENMP/10)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp:11:38: error: use of undeclared identifier '_OPENMP'
+   11 |                             ('0' + ((_OPENMP/1)%10)),
+      |                                      ^
+6 errors generated when compiling for gfx90a.
+failed to execute:/opt/rocm-6.2.1/lib/llvm/bin/clang++  --offload-arch=gfx90a --offload-arch=gfx90a  -O3 -fopenmp=libomp -std=c++17 -MD -MT CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o.d -o "CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o" -c -x hip /work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k/OpenMPCheckVersion.cpp
+gmake[1]: *** [CMakeFiles/cmTC_eb182.dir/build.make:79: CMakeFiles/cmTC_eb182.dir/OpenMPCheckVersion.cpp.o] Error 1
+gmake[1]: Leaving directory '/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-bCtS8k'
+gmake: *** [Makefile:127: cmTC_eb182/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9900a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9900a.dir/build.make CMakeFiles/cmTC_9900a.dir/build
+gmake[1]: Entering directory '/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1'
+Building CXX object CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o
+/opt/rocm-6.2.1/bin/hipcc   -O3 -fopenmp=libomp -std=c++17 -MD -MT CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o -c /work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp:6:38: error: use of undeclared identifier '_OPENMP'
+    6 |                             ('0' + ((_OPENMP/100000)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp:7:38: error: use of undeclared identifier '_OPENMP'
+    7 |                             ('0' + ((_OPENMP/10000)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp:8:38: error: use of undeclared identifier '_OPENMP'
+    8 |                             ('0' + ((_OPENMP/1000)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp:9:38: error: use of undeclared identifier '_OPENMP'
+    9 |                             ('0' + ((_OPENMP/100)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp:10:38: error: use of undeclared identifier '_OPENMP'
+   10 |                             ('0' + ((_OPENMP/10)%10)),
+      |                                      ^
+/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp:11:38: error: use of undeclared identifier '_OPENMP'
+   11 |                             ('0' + ((_OPENMP/1)%10)),
+      |                                      ^
+6 errors generated when compiling for gfx90a.
+failed to execute:/opt/rocm-6.2.1/lib/llvm/bin/clang++  --offload-arch=gfx90a --offload-arch=gfx90a  -O3 -fopenmp=libomp -std=c++17 -MD -MT CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o.d -o "CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o" -c -x hip /work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1/OpenMPCheckVersion.cpp
+gmake[1]: *** [CMakeFiles/cmTC_9900a.dir/build.make:79: CMakeFiles/cmTC_9900a.dir/OpenMPCheckVersion.cpp.o] Error 1
+gmake[1]: Leaving directory '/work1/ntucourse/ntustudent003/SIFT-Optimizing/build/CMakeFiles/CMakeScratch/TryCompile-4rCcP1'
+gmake: *** [Makefile:127: cmTC_9900a/fast] Error 2
+
+
+
