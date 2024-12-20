@@ -58,3 +58,10 @@ In order to run our script for phase 1 (finding keypoints), phase2 (matchfeature
         - Results directed to `./bin/image_stitching_profile.txt`
         - Stitched image at `./bin/overlaid_result.jpg`
 
+## Reference
+
+- SIFT paper: https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf
+- SIFT repo: [GitHub - dbarac/sift-cpp: A C++ SIFT implementation (Scale invariant feature transform)](https://github.com/dbarac/sift-cpp)
+- Image stitching : [GitHub - ziqiguo/CS205-ImageStitching: Real Time Image Stitching](https://github.com/ziqiguo/CS205-ImageStitching)
+- Datasets : [As-Projective-As-Possible Image Stitching with Moving DLT](https://cs.adelaide.edu.au/~tjchin/apap/#Datasets)
+- SURF : [GitHub - abhinavgupta/SURF](https://github.com/abhinavgupta/SURF)
