@@ -1,26 +1,26 @@
-Image loading and preprocessing took: 169 ms
+Image loading and preprocessing took: 178 ms
 Inside find_keypoints_and_descriptors!
-Image loading and preprocessing took: 169 ms
+Image loading and preprocessing took: 178 ms
 Inside find_keypoints_and_descriptors!
 Inside find_keypoints_and_descriptors!
+	Grayscale conversion time: 2 ms
 	Grayscale conversion time: 3 ms
-	Grayscale conversion time: 4 ms
-	Gaussian pyramid generation time: 569 ms
-	DoG pyramid generation time: 81 ms
-	Gaussian pyramid generation time: 720 ms
-	DoG pyramid generation time: 82 ms
-	Keypoint detection time: 158 ms
-	Keypoint detection time: 137 ms
-	Gradient pyramid generation time: 149 ms
-	Gradient pyramid generation time: 158 ms
-	Descriptor computation time: 754 ms
-	Descriptor computation time: 699 ms
-Keypoints extraction took: 1877 ms
-Feature matching took: 214 ms
+	Gaussian pyramid generation time: 570 ms
+	DoG pyramid generation time: 77 ms
+	Gaussian pyramid generation time: 721 ms
+	Keypoint detection time: 141 ms
+	DoG pyramid generation time: 85 ms
+	Gradient pyramid generation time: 141 ms
+	Keypoint detection time: 204 ms
+	Gradient pyramid generation time: 183 ms
+	Descriptor computation time: 641 ms
+	Descriptor computation time: 692 ms
+Keypoints extraction took: 1965 ms
+Feature matching took: 182 ms
 Calculating homography...
 Overlaying images...
 Saving result...
 Image overlay completed successfully!
 Found 726 feature matches.
 Output image saved as overlaid_result.jpg
-Total executing time: 5689 ms
+Total executing time: 7321 ms

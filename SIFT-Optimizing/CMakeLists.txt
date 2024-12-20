@@ -38,5 +38,6 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 set(OpenCV_LIBS ${OpenCV_LIBS})
 
 
-add_subdirectory(src_seq)
-add_subdirectory(examples_seq)
+# src / examples for parallel code; src_seq / examples_seq for sequential code
+add_subdirectory(src)
+add_subdirectory(examples)

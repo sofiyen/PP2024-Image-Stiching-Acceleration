@@ -37,6 +37,6 @@ cd bin
 
 # Execute the program using srun
 echo "Executing the program..."
-# srun -p mi2104x -t 00:10:00 ./image_stitching  ../bin/overlaid_result.jpg ../imgs/ImageSrc/4-4.jpg
-srun -p mi2104x -t 00:10:00 ./image_stitching  ../imgs/ImageSrc2/4-1.jpg ../imgs/ImageSrc2/4-2.jpg > image_stitching_profile.txt
+srun -p mi2104x -t 00:10:00 ./image_stitching  ../imgs/images/1-1.jpg ../imgs/images/1-2.jpg
+srun -p mi2104x -t 00:10:00 ./image_stitching  ../bin/overlaid_result.jpg ../imgs/images/1-3.jpg
 echo "Execution completed successfully."
