@@ -7,24 +7,19 @@ This is our final project for NTU 2024 Parallel Programming course, mainly focus
 ## File Structure
 ```
 ├── README.md
-└── SIFT-Optimizing
+└── SIFT-Optimizing/
     ├── CMakeLists.txt
     ├── FindKeypoints.sh
     ├── ImageStitching.sh
     ├── MatchFeatures.sh
-    ├── README.md
-    ├── bin
-    ├── build
+    ├── bin/ -> executables and results
     ├── demo.jpg
-    ├── examples
-    ├── examples_seq
-    ├── execution_time_comparison.png
-    ├── imgs
-    ├── notes.md
+    ├── examples/ -> parallel example usages
+    ├── examples_seq/ -> sequential example usages
+    ├── imgs/ -> image datasets
     ├── profile.py
-    ├── src
-    ├── src_seq
-    └── stitch.sh
+    ├── src/ -> parallel source code for image stitching implementations
+    └── src_seq/ -> sequential source code for image stitching implementations
 ```
 
 ## Environment
